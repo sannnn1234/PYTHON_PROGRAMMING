@@ -11,4 +11,4 @@ pip install -r requirements.txt
 
 # 3. Configure environment variables
 Create a .env file in the project root:
-MONGO_URI= <your-mongodb-connection-string>
+MONGO_URI=<your-mongodb-connection-string>
