@@ -1,4 +1,52 @@
-# Python Programming Assignment
+# **Python Programming Assignment**
+
+## **1. Clone the Repository**
+
+```bash
+git clone <your-repo-url>
+cd <repo-folder>
+```
+
+---
+
+## **2. Create and Activate a Virtual Environment**
+
+```bash
+python -m venv venv
+```
+
+### **Activate the virtual environment**
+
+**Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux / Mac:**
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## **3. Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+### **Example `requirements.txt`**
+
+```
+Flask
+Flask-PyMongo
+python-dotenv
+bson
+```
+
+---
 
 ## **Q1. Password Strength Checker**
 
